@@ -25,7 +25,7 @@ namespace restful_api
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-            .UseUrls("http://localhost:8081")
+            .UseUrls("http://localhost:8081", "http://localhost:8082", "http://localhost:8083")
                 .UseStartup<Startup>();
     }
 }

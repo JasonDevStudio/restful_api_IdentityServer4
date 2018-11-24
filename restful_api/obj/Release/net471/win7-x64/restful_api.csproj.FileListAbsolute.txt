@@ -162,7 +162,6 @@ D:\Repos\restful_api_IdentityServer4\restful_api\bin\Release\net471\win7-x64\Sys
 D:\Repos\restful_api_IdentityServer4\restful_api\bin\Release\net471\win7-x64\System.Security.SecureString.dll
 D:\Repos\restful_api_IdentityServer4\restful_api\bin\Release\net471\win7-x64\System.Threading.Overlapped.dll
 D:\Repos\restful_api_IdentityServer4\restful_api\bin\Release\net471\win7-x64\System.Xml.XPath.XDocument.dll
-D:\Repos\restful_api_IdentityServer4\restful_api\obj\Release\net471\win7-x64\restful_api.csprojAssemblyReference.cache
 D:\Repos\restful_api_IdentityServer4\restful_api\obj\Release\net471\win7-x64\restful_api.exe.config
 D:\Repos\restful_api_IdentityServer4\restful_api\obj\Release\net471\win7-x64\restful_api.csproj.CoreCompileInputs.cache
 D:\Repos\restful_api_IdentityServer4\restful_api\obj\Release\net471\win7-x64\restful_api.RazorAssemblyInfo.cache

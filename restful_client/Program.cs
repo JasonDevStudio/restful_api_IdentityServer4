@@ -11,10 +11,10 @@ namespace restful_client
 
             try
             {
-                var client = new RestClient(@"http://localhost:8081");
-                var request = new RestRequest("connect/token", Method.POST,DataFormat.Json);
-                 
-                request.AddParameter("grant_type", "client_credentials",ParameterType.GetOrPost);
+                var client = new RestClient(@"http://localhost:8081") { ReadWriteTimeout = 1000000, Timeout = 1000000 };
+                var request = new RestRequest("connect/token", Method.POST, DataFormat.Json) { ReadWriteTimeout = 1000000, Timeout = 1000000 };
+
+                request.AddParameter("grant_type", "client_credentials", ParameterType.GetOrPost);
                 request.AddParameter("client_id", "app_lds", ParameterType.GetOrPost);
                 request.AddParameter("client_secret", "jgktjgkt99", ParameterType.GetOrPost);
 
@@ -29,7 +29,11 @@ namespace restful_client
                 request.AddHeader("Authorization", $"{resp.Data.TokenType} {resp.Data.AccessToken}");
                 var respc = client.Execute(request);
                 Console.WriteLine(respc.StatusCode);
+                Console.WriteLine(respc.StatusDescription);
                 Console.WriteLine(respc.Content);
+                Console.WriteLine(respc.ErrorMessage);
+                Console.WriteLine(respc.ErrorException);
+
             }
             catch (Exception ex)
             {
