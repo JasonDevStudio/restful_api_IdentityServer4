@@ -1,0 +1,14 @@
+/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/restful_api/bin/Release/netcoreapp2.1/restful_api.dll.config
+/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/restful_api/bin/Release/netcoreapp2.1/restful_api.deps.json
+/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/restful_api/bin/Release/netcoreapp2.1/restful_api.runtimeconfig.json
+/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/restful_api/bin/Release/netcoreapp2.1/restful_api.runtimeconfig.dev.json
+/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/restful_api/bin/Release/netcoreapp2.1/restful_api.dll
+/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/restful_api/bin/Release/netcoreapp2.1/restful_api.pdb
+/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/restful_api/obj/Release/netcoreapp2.1/restful_api.csproj.CoreCompileInputs.cache
+/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/restful_api/obj/Release/netcoreapp2.1/restful_api.RazorAssemblyInfo.cache
+/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/restful_api/obj/Release/netcoreapp2.1/restful_api.RazorAssemblyInfo.cs
+/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/restful_api/obj/Release/netcoreapp2.1/restful_api.AssemblyInfoInputs.cache
+/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/restful_api/obj/Release/netcoreapp2.1/restful_api.AssemblyInfo.cs
+/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/restful_api/obj/Release/netcoreapp2.1/restful_api.RazorTargetAssemblyInfo.cache
+/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/restful_api/obj/Release/netcoreapp2.1/restful_api.dll
+/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/restful_api/obj/Release/netcoreapp2.1/restful_api.pdb

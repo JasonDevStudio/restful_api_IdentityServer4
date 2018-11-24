@@ -1,0 +1,15 @@
+/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/web_api/bin/Debug/netcoreapp2.1/web_api.dll.config
+/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/web_api/bin/Debug/netcoreapp2.1/web_api.deps.json
+/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/web_api/bin/Debug/netcoreapp2.1/web_api.runtimeconfig.json
+/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/web_api/bin/Debug/netcoreapp2.1/web_api.runtimeconfig.dev.json
+/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/web_api/bin/Debug/netcoreapp2.1/web_api.dll
+/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/web_api/bin/Debug/netcoreapp2.1/web_api.pdb
+/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/web_api/obj/Debug/netcoreapp2.1/web_api.csprojAssemblyReference.cache
+/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/web_api/obj/Debug/netcoreapp2.1/web_api.csproj.CoreCompileInputs.cache
+/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/web_api/obj/Debug/netcoreapp2.1/web_api.RazorAssemblyInfo.cache
+/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/web_api/obj/Debug/netcoreapp2.1/web_api.RazorAssemblyInfo.cs
+/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/web_api/obj/Debug/netcoreapp2.1/web_api.AssemblyInfoInputs.cache
+/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/web_api/obj/Debug/netcoreapp2.1/web_api.AssemblyInfo.cs
+/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/web_api/obj/Debug/netcoreapp2.1/web_api.RazorTargetAssemblyInfo.cache
+/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/web_api/obj/Debug/netcoreapp2.1/web_api.dll
+/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/web_api/obj/Debug/netcoreapp2.1/web_api.pdb
