@@ -13,15 +13,23 @@ namespace restful_client
             {
                 var client = new RestClient(@"http://localhost:8081");
                 var request = new RestRequest("connect/token", Method.POST,DataFormat.Json);
-                request.AddParameter("grant_type", "client_credentials", ParameterType.RequestBody);
-                request.AddParameter("client_id", "app_lds", ParameterType.RequestBody);
-                request.AddParameter("client_secret", "jgktjgkt99", ParameterType.RequestBody);
+                 
+                request.AddParameter("grant_type", "client_credentials",ParameterType.GetOrPost);
+                request.AddParameter("client_id", "app_lds", ParameterType.GetOrPost);
+                request.AddParameter("client_secret", "jgktjgkt99", ParameterType.GetOrPost);
 
-                var resp = client.Execute(request);
+                var resp = client.Execute<Token>(request);
                 Console.WriteLine(resp.StatusCode);
                 Console.WriteLine(resp.Content);
 
-                request = new RestRequest("api/default",Method.GET);
+                Console.WriteLine("请输入获取数量：");
+                var num = Console.ReadLine();
+
+                request = new RestRequest($"api/values/{num}", Method.GET);
+                request.AddHeader("Authorization", $"{resp.Data.TokenType} {resp.Data.AccessToken}");
+                var respc = client.Execute(request);
+                Console.WriteLine(respc.StatusCode);
+                Console.WriteLine(respc.Content);
             }
             catch (Exception ex)
             {
