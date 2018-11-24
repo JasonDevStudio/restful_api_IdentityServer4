@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.AspNetCore.Hosting.WindowsServices</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.AspNetCore.Hosting.WindowsServices.WebHostService">
+            <summary>
+                Provides an implementation of a Windows service that hosts ASP.NET Core.
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Hosting.WindowsServices.WebHostService.#ctor(Microsoft.AspNetCore.Hosting.IWebHost)">
+            <summary>
+            Creates an instance of <c>WebHostService</c> which hosts the specified web application.
+            </summary>
+            <param name="host">The configured web host containing the web application to host in the Windows service.</param>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Hosting.WindowsServices.WebHostService.OnStarting(System.String[])">
+            <summary>
+            Executes before ASP.NET Core starts.
+            </summary>
+            <param name="args">The command line arguments passed to the service.</param>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Hosting.WindowsServices.WebHostService.OnStarted">
+            <summary>
+            Executes after ASP.NET Core starts.
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Hosting.WindowsServices.WebHostService.OnStopping">
+            <summary>
+            Executes before ASP.NET Core shuts down.
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Hosting.WindowsServices.WebHostService.OnStopped">
+            <summary>
+            Executes after ASP.NET Core shuts down.
+            </summary>
+        </member>
+        <member name="T:Microsoft.AspNetCore.Hosting.WindowsServices.WebHostWindowsServiceExtensions">
+            <summary>
+                Extensions to <see cref="T:Microsoft.AspNetCore.Hosting.IWebHost"/> for hosting inside a Windows service.
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Hosting.WindowsServices.WebHostWindowsServiceExtensions.RunAsService(Microsoft.AspNetCore.Hosting.IWebHost)">
+            <summary>
+                Runs the specified web application inside a Windows service and blocks until the service is stopped.
+            </summary>
+            <param name="host">An instance of the <see cref="T:Microsoft.AspNetCore.Hosting.IWebHost"/> to host in the Windows service.</param>
+            <example>
+                This example shows how to use <see cref="M:Microsoft.AspNetCore.Hosting.WindowsServices.WebHostWindowsServiceExtensions.RunAsService(Microsoft.AspNetCore.Hosting.IWebHost)"/>.
+                <code>
+                    public class Program
+                    {
+                        public static void Main(string[] args)
+                        {
+                            var config = WebHostConfiguration.GetDefault(args);
+                            
+                            var host = new WebHostBuilder()
+                                .UseConfiguration(config)
+                                .Build();
+                     
+                            // This call will block until the service is stopped.
+                            host.RunAsService();
+                        }
+                    }
+                </code>
+            </example>
+        </member>
+    </members>
+</doc>

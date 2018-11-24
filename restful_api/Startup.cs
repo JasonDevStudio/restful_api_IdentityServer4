@@ -36,7 +36,7 @@ namespace restful_api
                 .AddIdentityServerAuthentication(options =>
                 {
                     options.RequireHttpsMetadata = false; //是否启用https
-                    options.Authority = $"http://localhost:57396";//配置授权认证的地址 
+                    options.Authority = $"http://localhost:8081";//配置授权认证的地址 
                     options.ApiName = "ValuesApi"; //资源名称，跟认证服务中注册的资源列表名称中的apiResource一致
                 }
                 );

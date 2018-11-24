@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  web_api:
-    image: y95535/webapi
-    build:
-      context: .
-      dockerfile: web_api/Dockerfile

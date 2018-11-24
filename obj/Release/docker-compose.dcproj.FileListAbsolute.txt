@@ -1,5 +1,0 @@
-/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/bin/Release/web_api.dll
-/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/bin/Release/web_api.pdb
-/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/bin/Release/web_api.dll.config
-/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/obj/Release/docker-compose.dcproj.CoreCompileInputs.cache
-/Volumes/MAC_VM/00_GitHub/restful_api_IdentityServer4/obj/Release/docker-compose.dcproj.CopyComplete
