@@ -11141,9 +11141,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Volumes/MAC_VM/00_GitHub/Jasondevstudio/restful_api_IdentityServer4.git/restful_api/restful_api.csproj",
-      "projectName": "restful_api",
-      "projectPath": "/Volumes/MAC_VM/00_GitHub/Jasondevstudio/restful_api_IdentityServer4.git/restful_api/restful_api.csproj",
+      "projectUniqueName": "/Volumes/MAC_VM/00_GitHub/Jasondevstudio/restful_api_IdentityServer4.git/restful_api/restful_api_service.csproj",
+      "projectName": "restful_api_service",
+      "projectPath": "/Volumes/MAC_VM/00_GitHub/Jasondevstudio/restful_api_IdentityServer4.git/restful_api/restful_api_service.csproj",
       "packagesPath": "/Users/yaojie/.nuget/packages/",
       "outputPath": "/Volumes/MAC_VM/00_GitHub/Jasondevstudio/restful_api_IdentityServer4.git/restful_api/obj",
       "projectStyle": "PackageReference",

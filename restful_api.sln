@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "restful_api", "restful_api\restful_api.csproj", "{2C1E9BED-F2A9-4F70-833F-1402E3A4E261}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "restful_api_service", "restful_api\restful_api_service.csproj", "{2C1E9BED-F2A9-4F70-833F-1402E3A4E261}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "restful_client", "restful_client\restful_client.csproj", "{C9B8B0CB-9EDA-4122-9B26-090998016FBC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "restful_client", "restful_client\restful_client.csproj", "{C9B8B0CB-9EDA-4122-9B26-090998016FBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
