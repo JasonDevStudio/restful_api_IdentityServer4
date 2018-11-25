@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+此文件由 Web 项目的发布/打包过程使用。可以通过编辑此 MSBuild 文件
+自定义此过程的行为。为了解与此相关的更多内容，请访问 https://go.microsoft.com/fwlink/?LinkID=208121。 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Repos\restful_api_IdentityServer4\web_api_docker\bin\Release\netcoreapp2.1\publish\</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>11/25/2018 10:40:20</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>11/25/2018 10:40:20</publishTime>
+    </File>
+    <File Include="IdentityModel.AspNetCore.OAuth2Introspection.dll">
+      <publishTime>11/15/2018 09:53:52</publishTime>
+    </File>
+    <File Include="IdentityModel.dll">
+      <publishTime>10/02/2018 09:31:14</publishTime>
+    </File>
+    <File Include="IdentityServer4.AccessTokenValidation.dll">
+      <publishTime>11/17/2018 10:22:12</publishTime>
+    </File>
+    <File Include="IdentityServer4.dll">
+      <publishTime>11/17/2018 07:57:54</publishTime>
+    </File>
+    <File Include="IdentityServer4.Storage.dll">
+      <publishTime>11/16/2018 16:30:28</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.JsonWebTokens.dll">
+      <publishTime>10/05/2018 19:35:44</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Logging.dll">
+      <publishTime>10/05/2018 19:36:18</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>10/05/2018 19:42:50</publishTime>
+    </File>
+    <File Include="System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>10/05/2018 19:34:28</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>11/25/2018 11:04:43</publishTime>
+    </File>
+    <File Include="web_api_docker.deps.json">
+      <publishTime>11/25/2018 11:04:43</publishTime>
+    </File>
+    <File Include="web_api_docker.dll">
+      <publishTime>11/25/2018 11:04:43</publishTime>
+    </File>
+    <File Include="web_api_docker.pdb">
+      <publishTime>11/25/2018 11:04:43</publishTime>
+    </File>
+    <File Include="web_api_docker.runtimeconfig.json">
+      <publishTime>11/25/2018 11:04:43</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

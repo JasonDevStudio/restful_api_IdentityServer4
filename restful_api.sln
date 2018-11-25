@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "restful_api_service", "restful_api\restful_api_service.csproj", "{2C1E9BED-F2A9-4F70-833F-1402E3A4E261}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "restful_api_service", "restful_api\restful_api_service.csproj", "{2C1E9BED-F2A9-4F70-833F-1402E3A4E261}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "restful_client", "restful_client\restful_client.csproj", "{C9B8B0CB-9EDA-4122-9B26-090998016FBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "restful_client", "restful_client\restful_client.csproj", "{C9B8B0CB-9EDA-4122-9B26-090998016FBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web_api_docker", "web_api_docker\web_api_docker.csproj", "{F4C85D0B-0358-4227-9FEE-B2ADCB3D2E25}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{85D4B6AE-93FD-44BF-AE16-226671526321}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{C9B8B0CB-9EDA-4122-9B26-090998016FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9B8B0CB-9EDA-4122-9B26-090998016FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9B8B0CB-9EDA-4122-9B26-090998016FBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4C85D0B-0358-4227-9FEE-B2ADCB3D2E25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4C85D0B-0358-4227-9FEE-B2ADCB3D2E25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4C85D0B-0358-4227-9FEE-B2ADCB3D2E25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4C85D0B-0358-4227-9FEE-B2ADCB3D2E25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85D4B6AE-93FD-44BF-AE16-226671526321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85D4B6AE-93FD-44BF-AE16-226671526321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85D4B6AE-93FD-44BF-AE16-226671526321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85D4B6AE-93FD-44BF-AE16-226671526321}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

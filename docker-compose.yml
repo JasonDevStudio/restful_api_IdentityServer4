@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  web_api_docker:
+    image: $y95535/webapidocker
+    build:
+      context: .
+      dockerfile: web_api_docker/Dockerfile
