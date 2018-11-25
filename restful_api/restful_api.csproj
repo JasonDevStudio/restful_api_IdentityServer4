@@ -2,6 +2,9 @@
 
   <PropertyGroup>
     <!--<TargetFramework>net471</TargetFramework>-->
+    <!--<RuntimeIdentifier>win7-x64</RuntimeIdentifier>-->
+    <!--<RuntimeIdentifiers>win-x64;win81-x64;win10-x64;osx.10.13-x64;linux-x64</RuntimeIdentifiers>-->
+    <!--<TargetFrameworks>netcoreapp2.1;net471</TargetFrameworks>-->
     <RuntimeIdentifier>win7-x64</RuntimeIdentifier>
     <TargetFrameworks>netcoreapp2.1;net471</TargetFrameworks>
     <DockerComposeProjectPath>../docker-compose.dcproj</DockerComposeProjectPath>
